@@ -11,5 +11,6 @@ requires "nim >= 0.18.0"
 
 # Tests
 task test, "Runs the test suite":
-  exec "nim c -d:release -r src/primes"
+  exec "nim c -r tests/test_kronecker"
+  exec "nim c -r src/core"
 

@@ -30,7 +30,3 @@ func primes(n: int): seq[int] =
     if bits[i]:
       result.add((3*i + 1) or 1)
 
-
-when isMainModule:
-  doAssert len(primes(100)) == 25
-
