@@ -1,0 +1,3 @@
+import ./primes
+
+export primes
